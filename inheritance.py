@@ -70,7 +70,10 @@ del tarantula.eyes
 print(tarantula)
 
 del tarantula
-print(tarantula)
+try:
+  print(tarantula)
+except NameError:
+  print("The tarantula does not exist.")
 
 # Examples for Inheritance
 print("")
@@ -104,6 +107,26 @@ print(pus)
 pus.meow()
 
 Animal.noahs_count()
+
+# Multiple inheritance
+class A:
+  def A(self):
+    print('A')
+
+class B(A):
+  def B(self):
+    print('B')
+
+class C:
+  def C(self):
+    print('C')
+    
+class D(B,C):
+  def D(self):
+    print('D')
+
+o = D()
+o.A(),o.B(),o.C(),o.D()
 
 # Examples for Exception Handling
 print("")
