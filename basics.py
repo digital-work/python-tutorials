@@ -204,4 +204,31 @@ def conditionals():
     if a == 1:
       print("a is equal to one")
       
-      
+#helloWorld()
+#helloSomething("pupsi")
+#nothing()
+
+# Comments
+"""
+a = 1
+def func():
+  #global a
+  a = 2
+  global b 
+  b = 3
+  print("a (local): " + str(a)) # 2
+func()
+print("a (global): " + str(a)) # 1 
+print("b: " + str(b)) # 3
+"""
+
+#delFunction()
+#numbers()
+#strings()
+#lists()
+#tuples()
+#booleans()
+#sets()
+dictionaries()
+
+#conditionals()
