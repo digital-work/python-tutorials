@@ -6,6 +6,7 @@ Created on 13. jan. 2020
 
 import random
 import numpy
+import scipy
 
 
 def helloWorld():
