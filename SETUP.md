@@ -17,7 +17,24 @@
 7. Update Anaconda: ```conda update conda```
 7. Type: ```python```
 
+# Installing Eclipse
+ 1. Download latest Java JDK.
+ 2. Download [Eclipse]().
+ 3. Install Eclipse.
+ 4. Open Eclipse.
+ 5. Go to ```Help > Install New Software…```
+ 6. Paste ```http://www.pydev.org/updates``` into ```Work with: ``` field, and press ```Add…```
+ 7. Chck parts you want to install, and restart.
+ 8. Got ```Preferences > PyDev > Interpreters > Python Interpreter > Browse for python/pypy exe```
+ 8. Choose one of the Python interpreter from you environments. Typically in ```C:\Users\joschua\.conda\envs```
+ 
+ Source: 
+ * [Linking Anaconda Python in Eclipse](https://docs.anaconda.com/anaconda/user-guide/tasks/integration/eclipse-pydev/)
+ 
+## Adding Anaconda Python to Eclipse
+
 # Installing original Python 3 on Windows 10
+
 
 ## Getting rid of previous Python installations
 
