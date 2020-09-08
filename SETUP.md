@@ -20,11 +20,11 @@ _Instructions for Anaconda 4.8.3|4_
 9. Create your first environment: ```conda create --name yoshi python=3.8```
 10. Activate your environment: ```conda activate yoshi``` 
 
-Source:
+_Source:_
 * [Conda cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
 # Installing Eclipse
-_Instruction for Eclipse IDE for C/C++ Developers  2020-06 (4.16.0)_
+_Instruction for Eclipse IDE for C/C++ Developers 2020-06 (4.16.0)_
 
 1. Download latest [Java JDK](https://www.java.com/en/).
 2. Download [Eclipse](https://www.eclipse.org/downloads/).
@@ -36,14 +36,15 @@ _Instruction for Eclipse IDE for C/C++ Developers  2020-06 (4.16.0)_
 8. Choose default workspace.
 9. Create new project: ```New > Project…``` using the ```PyDev > PyDev Project``` wizard.
 
-Source:
+_Source:_
 * [Linking Anaconda Python in Eclipse](https://docs.anaconda.com/anaconda/user-guide/tasks/integration/eclipse-pydev/)
  
 ## Adding Anaconda Python to Eclipse
-_Instructions for:
-* Eclipse IDE for C/C++ Developers  2020-06 (4.16.0)
-* Anaconda 4.8.4
-* PyDev 8.0.0.202009061309_
+_Instructions for:_
+* _Eclipse IDE for C/C++ Developers  2020-06 (4.16.0)_
+* _Anaconda 4.8.4_
+* _PyDev 8.0.0.202009061309_
+
 10. Go to ```Preferences > PyDev > Interpreters > Python Interpreter > Browse for python/pypy exe```
 11. Choose one of the Python interpreter from you environments. Typically in ```C:\Users\joschua\.conda\envs```
 12. Under ```Packages```: Check off ```Load conda env vars before run?```.
@@ -54,14 +55,14 @@ _Instructions for:
 17. Choose the desired ```Ìnterpreter```.
 18. Press ```Apply and Close```.
  
-Source: 
+_Source:_
 * [Setup Eclipse with PyDev](http://www.scopefoundry.org/advanced_dev_windows_step_by_step.html)
 
 # Installing PyCharm
-_Instructions for: 
-* PyCharm Community 2020.2.1
-* Anaconda 4.8.4
-* PyDev 8.0.0.202009061309_   
+_Instructions for:_
+* _PyCharm Community 2020.2.1_
+* _Anaconda 4.8.4_
+* _PyDev 8.0.0.202009061309_   
 
 1. Download [PyCharm Community](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows)
 2. Install PyCharm Community.
@@ -76,8 +77,8 @@ _Instructions for:
 11. Choose your desired interpreter in the drop down menu under ```File > Settings > Project <name> > Python Interpreter```. 
 (You might have to press ```Show all…``` to see previously added interpreters.)
 
-Source: 
-* [Configure a Conda virtual environment]()https://www.jetbrains.com/help/pycharm/conda-support-creating-conda-virtual-environment.html
+_Source:_
+* [Configure a Conda virtual environment](https://www.jetbrains.com/help/pycharm/conda-support-creating-conda-virtual-environment.html)
 
 # Installing original Python 3 on Windows 10
 
@@ -93,12 +94,12 @@ Source:
 5. Install  Python 3 to ```C:\Program Files\Python\Python38```. (You might have to give Admin rights if there is an error message.)
 6. Go to Edit the system environment variables > Advanced > Environment Variables…
 7. Highlight ```Path > Edit…``` and add two ```New variables```
-  * ```C:\Program Files\Python\Python38```
-  * ```C:\Program Files\Python\Python38\Scripts```
+    * ```C:\Program Files\Python\Python38```
+    * ```C:\Program Files\Python\Python38\Scripts```
 8. Rename the executables in  C:\Program Files\Python\Python38 to python3.exe
 9. Check that you can:
-  * Execute Python in the terminal with ```python3```. Check that the right versions are used.
-  * Check that the right executables are used with ``where python3```
+    * Execute Python in the terminal with ```python3```. Check that the right versions are used.
+    * Check that the right executables are used with ``where python3```
 10. Make sure that your user has Full Control allowed in the folder properties of Python38.
 
 ## Installing pip & virtualenv
