@@ -9,6 +9,11 @@ Create new environment:
 conda create --name pupsi python=3.5
 ```
 
+List all environments:
+```
+conda env list
+```
+
 Activate environment:
 ```
 conta activate pupsi
@@ -17,6 +22,11 @@ conta activate pupsi
 Deactivate environment:
 ```
 conda deactivate
+```
+
+Delete environment
+```
+conda env remove --name pupsi
 ```
 
 ## Packages
