@@ -107,6 +107,7 @@ _Source:_
 11. Check if pip is already installed: ```python3 -m pip --version```
     1. If yes: Upgrade to newest version:  ```python3 -m pip install --upgrade pip```
     2. If no: Install it.
+12. Test if virtualenv works: ```py -m venv env```
 
 _Source:_  
 * [Installing Python 2 & 3](https://datascience.com.co/how-to-install-python-2-7-and-3-6-in-windows-10-add-python-path-281e7eae62a)
