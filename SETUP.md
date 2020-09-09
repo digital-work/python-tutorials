@@ -92,11 +92,11 @@ _Source:_
 
 4. Download [Python 3 (64-bit)]((https://www.python.org/downloads/)).
 5. Install  Python 3 to ```C:\Program Files\Python\Python38```. (You might have to give Admin rights if there is an error message.)
-6. Go to Edit the system environment variables > Advanced > Environment Variables…
+6. Go to ```Edit the system environment variables > Advanced > Environment Variables…```
 7. Highlight ```Path > Edit…``` and add two ```New variables```
     * ```C:\Program Files\Python\Python38```
     * ```C:\Program Files\Python\Python38\Scripts```
-8. Rename the executables in  C:\Program Files\Python\Python38 to python3.exe
+8. Rename the executables in ```C:\Program Files\Python\Python38``` to ```python3.exe```
 9. Check that you can:
     * Execute Python in the terminal with ```python3```. Check that the right versions are used.
     * Check that the right executables are used with ``where python3```
