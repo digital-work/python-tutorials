@@ -47,3 +47,5 @@ conda install <PCKG>
 2. Navigate to the folder in which you want to create the new Jupyter project: ```cd .\path\to\the\folder```
 3. Create new notebook or open existing one.
 4. Create a new file with code: ```File > Notebook [Python 3]```
+
+### Testing EGIT on Eclipse
