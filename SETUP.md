@@ -54,7 +54,7 @@ _Instructions for:_
 16. Go to ```PyDev - Interpreter```.
 17. Choose the desired ```Ìnterpreter```.
 18. Press ```Apply and Close```.
-19. Install the EGit plugin for Git integration as described [here]()
+19. Install the EGit plugin for Git integration as described [here](https://imagej.net/EGit).
 20. Install the GitHub Faloverd Markdown (GFM) viewer plugin to edit .md files like this one as described [here](https://marketplace.eclipse.org/content/github-flavored-markdown-viewer-plugin).
  
 _Source:_
